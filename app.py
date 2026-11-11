@@ -11,7 +11,7 @@ def get_message(name: str = "World") -> str:
 
 @app.route("/")
 def home():
-    name = os.getenv("APP_NAME", "World")
+    name = os.getenv("APP_NAME", "Abhishek")
     return get_message(name), 200
 
 

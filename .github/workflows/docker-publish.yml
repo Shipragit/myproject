@@ -40,4 +40,4 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/python-demo-app:${{ github.sha }}
-            #${{ secrets.DOCKERHUB_USERNAME }}/python-demo-app:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/python-demo-app:latest
